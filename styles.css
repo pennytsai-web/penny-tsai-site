@@ -356,24 +356,6 @@ textarea{resize:vertical}
 }
 .share-btn:hover{background:rgba(255,255,255,.18);transform:translateY(-1px)}
 
-/* ===== OPS PAIN POINTS ===== */
-.pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;max-width:1000px;margin:0 auto}
-.pcard{
-  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
-  padding:26px 22px 24px;text-align:center;box-shadow:var(--shadow-sm);
-  transition:transform .18s ease,box-shadow .18s ease;
-}
-.pcard:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
-.pcard .ill{
-  width:74px;height:74px;margin:0 auto 16px;border-radius:50%;
-  display:flex;align-items:center;justify-content:center;font-size:34px;line-height:1;
-}
-.pcard .ill-1{background:#fdeee4}
-.pcard .ill-2{background:#fdeaca}
-.pcard .ill-3{background:#e2f4ec}
-.pcard h3{font-size:17px;font-weight:700;margin-bottom:6px}
-.pcard p{font-size:13.5px;color:var(--slate);line-height:1.55}
-
 /* ===== SOLUTIONS / PRODUCTS ===== */
 .tools-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:20px;max-width:1000px;margin:0 auto}
 .tool{
