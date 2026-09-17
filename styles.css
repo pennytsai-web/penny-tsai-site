@@ -410,11 +410,23 @@ textarea{resize:vertical}
 .tool .bestfor{font-size:11.5px;color:var(--muted);margin:10px 0 0}
 .tool .bestfor b{color:var(--slate);font-weight:600}
 
+/* Penny figure standing beside the Job Redesign+ heading */
+.jr-band-fig{display:flex;align-items:center;justify-content:center;gap:30px;max-width:900px;text-align:left}
+.jr-fig{height:clamp(180px,22vw,250px);width:auto;flex:none;filter:drop-shadow(0 12px 22px rgba(58,36,29,.16));animation:penfloat 6s ease-in-out infinite}
+.jr-text{max-width:560px}
+.jr-text .badge-soft{margin-bottom:14px}
+@media(max-width:680px){.jr-band-fig{flex-direction:column;text-align:center;gap:16px}}
+
+/* section head with a Penny figure beside it */
+.head-fig{display:flex;align-items:center;justify-content:center;gap:30px;max-width:960px;text-align:left}
+.head-fig-text{max-width:600px}
+@media(max-width:760px){.head-fig{flex-direction:column;text-align:center;gap:14px}}
+
 /* Penny avatar icon beside a section title */
 .kicker-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-bottom:14px}
 .kicker-row .kicker{margin-bottom:0;font-size:15px}
 .head-avatar{
-  height:clamp(64px,8vw,86px);width:auto;
+  height:clamp(84px,10vw,116px);width:auto;
   filter:drop-shadow(0 8px 14px rgba(58,36,29,.14));
   animation:penfloat 5s ease-in-out infinite;
 }
