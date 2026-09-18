@@ -404,6 +404,12 @@ textarea{resize:vertical}
 .head-fig-text{max-width:600px}
 @media(max-width:760px){.head-fig{flex-direction:column;text-align:center;gap:14px}}
 
+/* funding-cap label on pillar cards */
+.pillar{display:flex;flex-direction:column}
+.pillar p{flex:1}
+.pillar .cap{align-self:flex-start;margin-top:14px;font-family:var(--font-head);font-weight:700;font-size:11px;letter-spacing:.03em;color:var(--honey-dk);background:#fdeaca;padding:5px 11px;border-radius:999px}
+.pillar .link-arrow{font-size:14px;white-space:nowrap}
+
 /* Penny avatar icon beside a section title */
 .kicker-row{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:12px;margin-bottom:14px}
 .kicker-row .kicker{margin-bottom:0;font-size:15px}
